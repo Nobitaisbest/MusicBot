@@ -43,8 +43,8 @@ module.exports = {
         .setTitle(client.user.username + lang.msg19)
         .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 1024 }))
         .setDescription(`**
-• Owner: \`Umut#6070\` & \`Kadrxy#0001\`
-• Developer: \`Umut#6070\` & \`Kadrxy#0001\`
+• Owner: \`《☆ Nobita ☆》#8773\`
+• Developer: \`《☆ Nobita ☆》#8773\`
 • User Count: \`${totalMembers || 0}\`
 • Server Count: \`${totalGuilds || 0}\`
 • Channel Count: \`${totalChannels || 0}\`
@@ -55,9 +55,7 @@ module.exports = {
 • Ping: \`${client.ws.ping} MS\`
 • Memory Usage: \`${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB\`
 • Invite Bot: [Click](${config.botInvite})
-• Support Server: [Click](${config.supportServer})
-${config.sponsor.status == true ? `• Sponsor: [Click](${config.sponsor.url})` : ``}
-${config.voteManager.status == true ? `• Vote: [Click](${config.voteManager.vote_url})` : ``}**`)
+• Support Server: [Click](${config.supportServer})**`)
         .setColor(client.config.embedColor)
         .setTimestamp()
       return interaction.reply({ embeds: [embed] }).catch(err => { })

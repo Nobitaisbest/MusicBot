@@ -1,14 +1,14 @@
 module.exports = {
-TOKEN: "OTU3MjExMTU4ODQxMDE2MzUw.GnpVvt.XRWeeqcHaHMQeR3qzA-W6CCHkIB4fTfg1XfTCE",
+TOKEN: "ODkyMzA3ODQwMzkwMjY2OTMw.GWq3d_.ah5b_JP5X7Lym6zZCnQOMyx7npxTxesB0wk0ds",
 ownerID: ["825997320238661657"], //write your discord user id. example: ["id"] or ["id1","id2"]
 botInvite: "", //write your discord bot invite.
 supportServer: "", //write your discord bot support server invite.
-mongodbURL: "mongodb+srv://18:18@cluster1.beqhfeo.mongodb.net", //write your mongodb url.
-status: '',
+mongodbURL: "mongodb+srv://18:18@music.tb2eweg.mongodb.net/?retryWrites=true&w=majority", //write your mongodb url.
+status: 'Music',
 commandsDir: './commands', //Please don't touch
 language: "en", //en, tr, nl, pt, fr, ar, zh_TW, it
-embedColor: "ffa954", //hex color code
-errorLog: "", //write your discord error log channel id.
+embedColor: "NotQuiteBlack", //hex color code
+errorLog: "846666156080627732", //write your discord error log channel id.
 
 
 sponsor: {
